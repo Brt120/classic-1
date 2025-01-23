@@ -1,24 +1,23 @@
 allow_embedding: false
-package_name: Classic_1
 db_schema:
   table_1:
     client: none
-    server: full
     columns: []
+    server: full
     title: Table 1
   table_2:
     client: none
-    server: full
     columns: []
+    server: full
     title: Table 2
 name: Classic 1
-startup_form: Form1
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
+package_name: Classic_1
+runtime_options: {client_version: '3', server_spec: null, server_version: python3-sandbox, version: 2}
 services:
-- source: /runtime/services/tables.yml
-  client_config: {}
+- client_config: {}
   server_config: {}
-- source: /runtime/services/google.yml
-  client_config: {}
+  source: /runtime/services/tables.yml
+- client_config: {}
   server_config: {}
+  source: /runtime/services/google.yml
+startup_form: Form1

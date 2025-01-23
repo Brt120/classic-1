@@ -22,3 +22,6 @@ class Form1(Form1Template):
 
   def hello_again():
     print('nada')
+
+  def how_are_you_doing():
+    print(hello())

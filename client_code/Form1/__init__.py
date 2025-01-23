@@ -19,3 +19,6 @@ class Form1(Form1Template):
 
   def goodbye():
     print('goodbye')
+
+  def hello_again():
+    print('nada')
